@@ -1,0 +1,19 @@
+1. 	Biến
+2. 	Loại dữ liệu
+3. 	Truyền
+4.	Chuỗi
+5.	Điều kiện
+6.	Vòng lặp
+7.	Mảng
+8.	Tuples
+9.	Từ điển
+10. Bộ
+11.	Chức năng
+12.	Hàm ẩn danh
+13.	Toán
+14.	Enums
+15.	Cấu trúc
+16.	Các loại trừu tượng
+17.	Xử lí ngoại lệ/ Người dùng nhập
+18.	Tệp IO
+19.	Macro
