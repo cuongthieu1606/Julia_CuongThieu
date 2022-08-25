@@ -1,3 +1,6 @@
+using Printf
+using Statistics
+
 a4 = [1, 2, 3]
 println(size(a4))
 # (3, )

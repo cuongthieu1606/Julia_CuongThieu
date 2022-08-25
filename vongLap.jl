@@ -1,3 +1,7 @@
+using Printf
+using Statistics
+
+
 i = 1
 while i < 20
     if (i % 2) == 0

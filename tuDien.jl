@@ -1,3 +1,4 @@
+using Printf
 using Statistics
 
 d1 = Dict("pi" => 3.14, "e" => 2.718)

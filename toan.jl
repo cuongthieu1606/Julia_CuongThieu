@@ -1,4 +1,7 @@
+using Printf
 using Statistics
+
+
 println("5 + 4 = ", (5 + 4))
 println("5 - 4 = ", (5 - 4))
 println("5 * 4 = ", (5 * 4))

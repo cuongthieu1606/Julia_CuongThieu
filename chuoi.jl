@@ -1,3 +1,7 @@
+using Printf
+using Statistics
+
+
 s1 = "Toi yeu Viet Nam"
 println(length(s1))
 # 16

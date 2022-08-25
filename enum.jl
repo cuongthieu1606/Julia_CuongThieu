@@ -5,6 +5,9 @@
 # Kiểu dữ liệu mặc định của Enum là int, phần tử đầu tiên có giá trị 
 # là 0 và các phần tử tiếp theo có giá trị mặc định tăng lên 1.
 
+using Printf
+using Statistics
+
 @enum Color begin
     red = 1
     blue = 2

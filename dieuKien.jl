@@ -1,3 +1,6 @@
+using Printf
+using Statistics
+
 age = 12
 if age >= 5 && age <= 6
     println("Python")

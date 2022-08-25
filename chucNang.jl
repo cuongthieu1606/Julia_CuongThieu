@@ -1,3 +1,4 @@
+using Printf
 using Statistics
 
 # getSum(x, y) = x + y
@@ -5,7 +6,7 @@ using Statistics
 
 # @printf("%d + %d = %d\n", x, y, getSum(x, y))
 
-function canIVote(age = 16)
+function canIVote(age=16)
     if age >= 18
         println("Can Vote")
     else
@@ -49,9 +50,11 @@ println(next2(4))
 
 
 function makeMultiplier(num)
-    return function (x) return x * num end
+    return function (x)
+        return x * num
+    end
 end
-    
+
 mult3 = makeMultiplier(3)
 println(mult3(6))
 # 18
@@ -66,7 +69,7 @@ println("5 + 4 = ", getSum3(5, 4))
 
 
 function getSumString(num1::String, num2::String)
-    return parse(Int32, num1) + parse(Int32, num2)    
+    return parse(Int32, num1) + parse(Int32, num2)
 end
 println("5 + 4 = ", getSumString("5", "4"))
 # 9

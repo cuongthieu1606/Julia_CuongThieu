@@ -1,3 +1,6 @@
+using Printf
+using Statistics
+
 a1 = zeros(Int32, 2, 2)
 
 a2 = Array{Int32}(undef, 5)

@@ -1,3 +1,6 @@
+using Printf
+using Statistics
+
 c2 = Char(120)
 println(c2)
 # x
